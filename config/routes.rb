@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :articles
   # controller name (pages) minus 'controller' then method/action name (home)
   # root/home page route
   root 'pages#home'
